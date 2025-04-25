@@ -34,7 +34,7 @@ const Work = () => {
                         </Link>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/works/alptrader.png" alt="Alptrader"></WorkImage>
+                <WorkImage src="/timson-homepage/images/works/alptrader.png" alt="Alptrader"></WorkImage>
             </Container>
         </Layout>
     )

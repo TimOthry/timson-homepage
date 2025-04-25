@@ -50,7 +50,7 @@ const Page = () => {
                             maxWidth="100px"
                             display="inline-block"
                             borderRadius="full"
-                            src="/images/timson.png"
+                            src="/timson-homepage/images/timson.png"
                             alt="Profile" />
                     </Box>
                 </Box>
