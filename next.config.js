@@ -1,12 +1,11 @@
-module.exports = {
+const nextConfig = {
     reactStrictMode: true,
     output: 'export',
-    trailingSlash: true, // Optional: Adds trailing slashes to URLs
-    exportPathMap: async function () {
-        return {
-        '/': { page: '/' },
-        '/works': { page: '/works' },
-        '/works/alptrader': { page: '/works/alptrader' },
-        }
-    }
-}
+    trailingSlash: true,
+    images: {
+        // Disable Image Optimization API
+        unoptimized: true,
+      },
+  }
+   
+  module.exports = nextConfig
