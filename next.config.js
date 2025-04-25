@@ -1,4 +1,6 @@
 const nextConfig = {
+    basePath: '/timson-homepage',
+    assetPrefix: '/timson-homepage/',
     reactStrictMode: true,
     output: 'export',
     trailingSlash: true,
