@@ -8,7 +8,6 @@ import {
     Link,
     List,
     ListItem,
-    SimpleGrid,
     Icon,
     useColorModeValue
 } from '@chakra-ui/react'
@@ -17,7 +16,6 @@ import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
@@ -128,8 +126,8 @@ const Page = () => {
             <div style={{ fontSize: '12px', opacity: 0.5 }}>
                 This website is built based on the {' '}
                 <Link as={NextLink} href='https://www.craftz.dog/' passHref scroll={false}>
-                    Takuya Matsuyama's website
-                </Link>.
+                    Takuya Matsuyama&apos;s website
+                </Link>
             </div>
         </Layout>
     )
