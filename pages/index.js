@@ -21,6 +21,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 const Page = () => {
     return (
         <Layout>
+            {/* Website built based on Takuya Matsuyama's website: https://www.craftz.dog/*/}
             <Container>
                 <Box
                     borderRadius="lg"
@@ -60,7 +61,7 @@ const Page = () => {
                         About
                     </Heading>
                     <Paragraph>
-                        Timson is currently a student at the University of Sheffield and an incoming intern at IBM.
+                        Timson is currently a student at the University of Sheffield and a current intern at IBM.
                         He is focusing his efforts to becoming a full-stack developer. Currently working on
                         a project called{' '}
                         <Link as={NextLink} href="/works/alptrader" passHref scroll={false}>Alptrader</Link>.
@@ -84,11 +85,11 @@ const Page = () => {
                     </Heading>
                     <BioSection>
                         <BioYear>2003</BioYear>
-                        Born in Shropshire, England.
+                        Born in Shropshire, England
                     </BioSection>
                     <BioSection>
                     <BioYear>2023</BioYear>
-                    Started studying a Bachelors in Computer Science at the University of Sheffield.
+                    Started Bachelors in Computer Science at University of Sheffield, England
                     </BioSection>
                     <BioSection>
                     <BioYear>2025</BioYear>
@@ -123,12 +124,7 @@ const Page = () => {
                     </List>
                 </Section>
             </Container>
-            <div style={{ fontSize: '12px', opacity: 0.5 }}>
-                This website is built based on the {' '}
-                <Link as={NextLink} href='https://www.craftz.dog/' passHref scroll={false}>
-                    Takuya Matsuyama&apos;s website
-                </Link>
-            </div>
+
         </Layout>
     )
 }
