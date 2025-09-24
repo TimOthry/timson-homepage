@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, Stack } from "@chakra-ui/react";
+import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -21,7 +21,7 @@ const Work = () => {
                     <ListItem>
                         <Meta>Github</Meta>
                         <Link href='https://github.com/TimOthry/crypto-crashouts'>
-                            https://github.com/TimOthry/crypto-crashouts<ExternalLinkIcon mx="2px" />
+                            https://github.com/TimOthry/crypto-crashouts <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

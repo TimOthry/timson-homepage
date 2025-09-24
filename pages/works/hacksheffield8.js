@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, Stack } from "@chakra-ui/react";
+import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -12,7 +12,7 @@ const Work = () => {
                     HackSheffield 8 <Badge>2025</Badge>
                 </Title>
                 <P>
-                    The theme for this hackathon was the 'Eco-environment' with the sponsors being
+                    The theme for this hackathon was &quot;Eco-environment&quot; with the sponsors being
                     SolarZero. We decided to create pro eco-friendly practice meme generater using openai
                     api.
                 </P>
